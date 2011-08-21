@@ -11,15 +11,14 @@ function ed_toolbar_init() {
 ?>
 <script type="text/javascript">
 //<![CDATA[
- 
-  var ed_toolbar = document.getElementById("ed_toolbar");    
+  //alert(wpActiveEditor);
+  var ed_toolbar = document.getElementById("ed_toolbar");
  
   if (ed_toolbar == null)  {
      alert("INIT: ed_toolbar is null");
   }  else {
      alert("INIT: ed_toolbar is NOT null");  
   }
- 
     //]]>
 </script>
 <?php
@@ -30,15 +29,13 @@ function ed_toolbar_demo() {
  
 <script type="text/javascript">
     //<![CDATA[
- 
-   var ed_toolbar = document.getElementById("ed_toolbar");
+  var ed_toolbar = document.getElementById("ed_toolbar");
  
    if (ed_toolbar == null)  {
-     alert("DEMO: ed_toolbar is null");
+     alert("ADMIN_FOOTER: ed_toolbar is null");
   }  else {
-     alert("DEMO: ed_toolbar is NOT null");  
+     alert("ADMIN_FOOTER: ed_toolbar is NOT null");
   }
- 
     //]]>
 </script>
 <?php
